@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">IntentExplicito</string>
+    <string name="aqui_saldra_tu_eleccion">Aquí saldrá tu elección</string>
+    <string name="selecciona_tu_provincia">Selecciona tu provincia</string>
+    <string name="provincia_seleccionada">Se ha seleccionado: %1$s</string>
+    <string name="error_seleccion">No se ha seleccionado ninguna provincia</string>
+    <string name="bizkaia">Bizkaia</string>
+    <string name="gipuzkoa">Gipuzkoa</string>
+    <string name="araba">Araba</string>
+    <string name="nafarroa">Nafarroa</string>
+    <string name="lapurdi">Lapurdi</string>
+    <string name="zuberoa">Zuberoa</string>
+    <string name="portugalete">Portugalete</string>
+</resources>

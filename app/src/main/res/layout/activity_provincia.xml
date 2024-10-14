@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RadioGroup
+        android:id="@+id/radioGroupProvincias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio_bizkaia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bizkaia" />
+
+        <RadioButton
+            android:id="@+id/radio_gipuzkoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gipuzkoa" />
+
+        <RadioButton
+            android:id="@+id/radio_araba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/araba" />
+
+        <RadioButton
+            android:id="@+id/radio_nafarroa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nafarroa" />
+
+        <RadioButton
+            android:id="@+id/radio_lapurdi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lapurdi" />
+
+        <RadioButton
+            android:id="@+id/radio_zuberoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zuberoa" />
+
+        <RadioButton
+            android:id="@+id/radio_portugalete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/portugalete" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selecciona_tu_provincia"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
